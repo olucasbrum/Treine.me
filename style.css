@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  list-style: none;
+}
+
+:root {
+  font-size: 62.5%; /* 10px */
+
+  --bg-btn: #69b99d;
+  --text-btn: #f9f9f9;
+  --text-span: #89c5cc;
+  --p-color: #7d7987;
+  --color-footer: #000000;
+}
+
+#page {
+  width: 100rem;
+  padding-top: 6.5rem;
+
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Mulish', sans-serif;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+
+  margin-bottom: 5.8rem;
+}
+
+header img:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+
+  cursor: pointer;
+}
+ul li {
+  color: #b9b7b7;
+}
+
+ul li:hover {
+  color: #1f1534;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15rem;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 44rem;
+}
+
+main img:hover {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+
+  margin-bottom: 4rem;
+}
+
+h1 span {
+  font-weight: 700;
+  color: var(--text-span);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  color: var(--p-color);
+  margin-bottom: 4rem;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: var(--text-btn);
+  background-color: var(--bg-btn);
+  border: none;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 3.2rem 1.5rem;
+  gap: 1rem;
+}
+
+button:hover {
+  background-color: #44a080;
+}
+
+footer p,
+a {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+footer a {
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: #69b99d;
+}
